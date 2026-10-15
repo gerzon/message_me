@@ -158,5 +158,14 @@
                 </form>
             </section>
         </section>
+        <aside class="chat-donation-widget" aria-label="Support this project">
+            <p class="chat-donation-label">If you like this project,
+                consider donating to support its development:</p>
+            <a class="chat-donation-float" href="{{ asset('donation-qr.png') }}" target="_blank"
+               rel="noopener noreferrer" aria-label="Open GCash donation QR code in a new tab"
+               title="Donate via GCash">
+                <img src="{{ asset('donation-qr.png') }}" alt="">
+            </a>
+        </aside>
     @endif
 @endsection
